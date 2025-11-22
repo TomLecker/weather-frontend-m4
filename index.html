@@ -12,8 +12,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="assets/css/estilos.css">
-
+    <link rel="stylesheet" href="assets/css/estilos.css" />
   </head>
   <body>
     <header>
@@ -54,20 +53,22 @@
       <div class="row">
         <div class="col-md-9">
           <main>
-            <article class="row">
-              
-                    <div class="card col-md-4" >
-                      <img src="..." class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          Some quick example text to build on the card title and
-                          make up the bulk of the card’s content.
-                        </p>
-                        <a href="#" class="btn btn-primary">Detalles >></a>
-                      </div>
-                    </div>
-
+            <article class="row" id="contenedorTarjetas">
+              <div class="card col-md-4">
+                <img
+                  src="assets/img/santiago.jpg"
+                  class="card-img-top"
+                  alt="Santiago de Chile"
+                />
+                <div class="card-body">
+                  <h5 class="card-title" id="ciudadNombre"></h5>
+                  <p class="card-text">
+                    Temperatura: <span id="temperatura"></span>
+                  </p>
+                  <a href="#" class="btn btn-primary">Detalles >></a>
+                </div>
+              </div>
+              <!--
                     <div class="card col-md-4" >
                       <img src="..." class="card-img-top" alt="..." />
                       <div class="card-body">
@@ -175,8 +176,7 @@
                         <a href="#" class="btn btn-primary">Detalles >></a>
                       </div>
                     </div>
-
-            
+                    -->
             </article>
             <section>
               <p>
@@ -218,6 +218,9 @@
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
       crossorigin="anonymous"
     ></script>
+
+    <script src="assets/js/weather.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
