@@ -1,0 +1,11 @@
+commit 6c1284ced7a8e2f9c73ec85d0780dd91a8561a6a
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Sat Nov 22 20:06:21 2025 -0300
+
+    Segundo commit con prueba de conexion a api de openweathermap, datos obtenidos para 10 ciudades
+
+commit 419ed31368696f187ea000f313fa1562d318607c
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Sat Nov 22 17:37:01 2025 -0300
+
+    primer commit con la estructuracion basica de la pagina, sin solicitud a API, uso de estilos o media-queries
