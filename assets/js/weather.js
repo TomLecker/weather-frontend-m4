@@ -46,7 +46,7 @@ ciudades.forEach((ciudad) => {
       const urlIcon = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
       $("#contenedorTarjetas").append(`
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card h-100 text-center" id="${ciudad.replace(/\s+/g, '-')}">
             <div class="card-body" >
               <h5 class="card-title">${ciudad}</h5>

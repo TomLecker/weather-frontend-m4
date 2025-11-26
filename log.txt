@@ -1,3 +1,9 @@
+commit 72159c8426b6a5810bdbb91ffe05d5e34eeef1b1
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Tue Nov 25 18:17:21 2025 -0300
+
+    3er commit, al hacer click en una de las tarjetas de clima, se manda a la pagina de detalles para tener mas informacion de la ciudad seleccionada
+
 commit 6c1284ced7a8e2f9c73ec85d0780dd91a8561a6a
 Author: Francisco Lopez <francisco.lg1992@gmail.com>
 Date:   Sat Nov 22 20:06:21 2025 -0300
