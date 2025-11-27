@@ -1,5 +1,46 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     background-color: lightgreen;
   }
 }
+
+.card {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card__title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card__text {
+  font-size: 1rem;
+}
+
+/* Modifier */
+.card--main {
+  border: 2px solid #007bff;
+  background-color: #e0f0ff;
+}
+
+
+
+.aside {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.aside__text{
+  font-size: 1rem;
+}
+
+.aside--mod {
+   border: 2px #050301;
+   background-color: #7eb6eb;
+    
+  }

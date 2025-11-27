@@ -84,7 +84,7 @@ $.getJSON("https://api.openweathermap.org/data/2.5/forecast",
         // Buscamos un pronóstico por día cercano a las 12:00
         const horasObjetivo = ["12:00:00", "15:00:00", "09:00:00"];
 
-        for (let d = 0; d < 5; d++) {
+        for (let d = 0; d < 6; d++) {
             const fechaBase = new Date();
             fechaBase.setDate(fechaBase.getDate() + d);
             const dia = fechaBase.toISOString().split("T")[0];

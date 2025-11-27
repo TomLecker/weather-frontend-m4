@@ -47,14 +47,14 @@ ciudades.forEach((ciudad) => {
 
       $("#contenedorTarjetas").append(`
         <div class="col-md-3">
-          <div class="card h-100 text-center" id="${ciudad.replace(/\s+/g, '-')}">
-            <div class="card-body" >
-              <h5 class="card-title">${ciudad}</h5>
+          <div class="card card--main h-100 text-center" id="${ciudad.replace(/\s+/g, '-')}">
+            <div class="card__body" >
+              <h5 class="card__title">${ciudad}</h5>
               <img src="${urlIcon}" alt="${data.weather[0].description}">
-              <p>${data.weather[0].description}</p>
-              <p>🌡️ ${temp}°C</p>
-              <p>💧 Humedad: ${humedad}%</p>
-              <p>💨 Viento: ${viento} m/s</p>
+              <p class="card__text">${data.weather[0].description}</p>
+              <p class="card__text">🌡️ ${temp}°C</p>
+              <p class="card__text">💧 Humedad: ${humedad}%</p>
+              <p class="card__text">💨 Viento: ${viento} m/s</p>
               <a href="#" class="btn btn-primary" onclick=verDetalles('${ciudad}')> Ver detalle</a>
             </div>
           </div>
