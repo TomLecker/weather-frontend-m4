@@ -4,6 +4,10 @@
 <p> Formateadas las clases de cada uno de los elementos para corresponder con el uso de metodologia BEM </p>
 <p>Uso de herramientas solicitadas (variables para colores y fuentes, mixins para estructurar elementos similares y anidamiento para facilitar legibilidad y mantencion de cada elemento </p>
 
+<p> Las clases de sass anidadas funcionales estan en los archivos : _cards.scss  para manejar su formato, texto, titulo y su comportamiento con media queries</p>
+<p> El elemento aside y section (info) estan declarados en el archivo layout.scss , otros elementos estan declarados, pero comentados ya que aun no se emplea un funcionamiento </p>
+
 <p> https://github.com/TomLecker/weather-frontend-m3.git </p>
+
 
 
