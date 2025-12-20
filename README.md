@@ -4,5 +4,6 @@
 <p> Formateadas las clases de cada uno de los elementos para corresponder con el uso de metodologia BEM </p>
 <p>Uso de herramientas solicitadas (variables para colores y fuentes, mixins para estructurar elementos similares y anidamiento para facilitar legibilidad y mantencion de cada elemento </p>
 
-<p>pagina al repositorio publico: https://github.com/TomLecker/weather-frontend-m3.git </p>
+<p> https://github.com/TomLecker/weather-frontend-m3.git </p>
+
 
