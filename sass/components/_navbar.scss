@@ -1,0 +1,34 @@
+/* BLOQUE */
+.weather-nav {
+  &__container {
+  }
+
+  &__brand {
+    font-weight: bold;
+  }
+
+  &__toggler {
+    border-color: #007bff;
+  }
+
+  &__collapse {
+
+  }
+
+  &__list {
+    gap: 1rem;
+  }
+  /*
+  
+  &__item {
+
+  }
+  */
+
+  &__link {
+    font-weight: 500;
+    &:hover {
+      color: #007bff;
+    }
+  }
+}

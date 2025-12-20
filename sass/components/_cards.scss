@@ -1,0 +1,46 @@
+@use "../variables/variables";
+
+.card {
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 420px) {
+    display: inline-flex;
+    margin: 0;
+  }
+
+  @media screen and (min-width: 421px) and (max-width: 576px) {
+    display: inline-flex;
+    width: 50%;
+    margin: 0;
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 1024px) {
+    display: inline-flex;
+    width: 33.33%;
+    margin: 0;
+  }
+
+  @media screen and (min-width: 1025px) {
+    display: inline-flex;
+    width: 25%;
+    margin: 0;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 1rem;
+  }
+
+  /* Modificador */
+  &--main {
+    border: 2px solid #bad5f3;
+    background: variables.$color_gradient_primary;
+  }
+}

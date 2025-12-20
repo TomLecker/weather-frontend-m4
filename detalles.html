@@ -12,17 +12,19 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="assets/css/detalles.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
   </head>
 
-
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">WeatherApp</a>
+    <header class="weather__header">
+      <nav class="weather-nav navbar navbar-expand-lg bg-body-tertiary">
+        <div class="weather-nav__container container-fluid">
+          <a class="weather-nav__brand navbar-brand" href="index.html"
+            >WeatherApp</a
+          >
           <button
-            class="navbar-toggler"
+            class="weather-nav__toggler navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
@@ -32,18 +34,28 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+          <div
+            class="collapse navbar-collapse weather-nav__collapse"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav weather-nav__list">
+              <li class="nav-item weather-nav__item">
+                <a
+                  class="nav-link active weather-nav__link"
+                  aria-current="page"
+                  href="index.html"
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="detalles.html">Detalles</a>
+              <li class="nav-item weather-nav__item">
+                <a class="nav-link weather-nav__link" href="detalles.html"
+                  >Detalles</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="acerca_de.html">Acerca De</a>
+              <li class="nav-item weather-nav__item">
+                <a class="nav-link weather-nav__link" href="acerca_de.html"
+                  >Acerca De</a
+                >
               </li>
             </ul>
           </div>
@@ -51,44 +63,70 @@
       </nav>
     </header>
 
-    <h3> Pronostico de la semana para <span id="ciudad"> </span> </h3>
-
-    <div class="container-fluid">
+    <div class="container-fluid contenido">
+      <h3 class="contenido__title">
+        Pronostico de la semana para <span id="ciudad"> </span>
+      </h3>
       <div class="row">
         <div class="class= col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
-          <main >
+          <main>
             <article class="row" id="pronostico"></article>
           </main>
         </div>
 
         <div class="col-md-3 col-lg-3 col-xl-3">
           <aside class="aside aside--mod">
-            <img src="assets/img/santiago.jpg" alt="ciudad">
-            <h3> Informacion relacionada</h3>
+            <img
+              class="aside__image"
+              src="assets/img/santiago.jpg"
+              alt="ciudad"
+            />
+            <h3 class="aside__title">Informacion relacionada</h3>
             <p class="aside__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
               quod eos, excepturi placeat, nesciunt, voluptatibus earum
               veritatis quos dignissimos hic explicabo ipsa sed suscipit
-              consequuntur a! Libero autem laudantium assumenda!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae impedit officia omnis obcaecati nostrum accusamus, modi aspernatur suscipit nulla commodi dolorum quidem a enim nobis laudantium. Ut delectus provident quaerat dolore totam, quo, quod consequatur aut ipsum autem facilis labore! Odit iure omnis laboriosam quisquam maxime, assumenda modi placeat unde!
+              consequuntur a! Libero autem laudantium assumenda! Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Molestiae impedit
+              officia omnis obcaecati nostrum accusamus, modi aspernatur
+              suscipit nulla commodi dolorum quidem a enim nobis laudantium. Ut
+              delectus provident quaerat dolore totam, quo, quod consequatur aut
+              ipsum autem facilis labore! Odit iure omnis laboriosam quisquam
+              maxime, assumenda modi placeat unde!
             </p>
           </aside>
         </div>
       </div>
     </div>
 
-    <footer class="bg-body-tertiary text-center text-lg-start fixed-bottom">
+    <footer class="footer bg-body-tertiary text-center text-lg-start mt-auto">
       <!-- Copyright -->
       <div
-        class="row text-left p-3"
+        class="footer__fila row"
         style="background-color: rgba(0, 0, 0, 0.05)"
       >
-        <p class="col">© 2025 Copyright:</p>
-        <p class="col"> Componentes: <a class="text-body" href="https://getbootstrap.com">Getbootstrap.com</a> </p>
-        <p class="col"> Colores: <a href="https://cssgradient.io"> Cssgradient.com</a> </p>
-        <p class="col"> API: <a href="https://openweathermap.org"> Openweathermap.org</a> </p>
+        <p class="footer__text col">© 2025 Copyright</p>
+        <p class="footer__text col"><b>Autor:</b> Francisco Lopez Garay</p>
+        <p class="footer__text col"><b>Año:</b> 2025</p>
+        <p class="footer__text col">
+          <b>Descripcion: </b> Aplicacion para mostrar el clima semanal de una
+          ciudad seleccionada
+        </p>
+        <p class="footer__text col">
+          <b>Componentes:</b>
+          <a class="text-body" href="https://getbootstrap.com"
+            >Getbootstrap.com</a
+          >
+        </p>
+        <p class="footer__text col">
+          <b>Colores:</b> <a href="https://cssgradient.io"> Cssgradient.com</a>
+        </p>
+        <p class="footer__text col">
+          <b>API:</b>
+          <a href="https://openweathermap.org"> Openweathermap.org</a>
+        </p>
       </div>
-      </div>
+
       <!-- Copyright -->
     </footer>
 

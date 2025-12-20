@@ -1,0 +1,35 @@
+commit 208cec822983d8d86bb0a4b470c0a77da429fe1d
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Sat Nov 29 14:47:10 2025 -0300
+
+    Quinto commit, version final del proyecto, pagina estilizada y pensada para funcionar en distintas resoluciones
+
+commit 2fdc8b7b9c46551ebcb78e6473d7f5ff7ec663ed
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Thu Nov 27 13:53:22 2025 -0300
+
+    cuarto commit, se muestran las temperaturas de la semana para la ciudad seleccionada, falta implementar mejora estetica
+
+commit 872ff463078ab519cb8ad2ec8a8157fdf1736eb3
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Wed Nov 26 13:52:03 2025 -0300
+
+    Cuarto commit, pagina mostrando pronostico semanal para ciudad seleccionada (maximo 5 por limitaciones de api)
+
+commit 72159c8426b6a5810bdbb91ffe05d5e34eeef1b1
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Tue Nov 25 18:17:21 2025 -0300
+
+    3er commit, al hacer click en una de las tarjetas de clima, se manda a la pagina de detalles para tener mas informacion de la ciudad seleccionada
+
+commit 6c1284ced7a8e2f9c73ec85d0780dd91a8561a6a
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Sat Nov 22 20:06:21 2025 -0300
+
+    Segundo commit con prueba de conexion a api de openweathermap, datos obtenidos para 10 ciudades
+
+commit 419ed31368696f187ea000f313fa1562d318607c
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Sat Nov 22 17:37:01 2025 -0300
+
+    primer commit con la estructuracion basica de la pagina, sin solicitud a API, uso de estilos o media-queries

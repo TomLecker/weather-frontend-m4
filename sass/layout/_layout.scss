@@ -1,0 +1,71 @@
+@use "../variables/variables";
+@use "../mixins/mixins";
+
+.aside {
+  height: 100%;
+
+  &__image {
+    max-height: 20%;
+    width: 100%;
+  }
+
+  &__text {
+    font-size: 1rem;
+  }
+
+  &__title{
+
+  }
+
+  &--mod {
+    @include mixins.formato-caja;
+  }
+}
+
+.info {
+
+  &__title{
+
+  }
+
+  &--mod {
+    @include mixins.formato-caja;
+  }
+
+
+}
+
+/*
+.contenido{
+
+    &__row{
+
+    }
+
+    &__title{
+
+    }
+
+    &__main{
+
+    }
+
+    &__row-main{
+
+    }
+
+    &__column{
+    }
+}
+*/
+
+.footer {
+  &__fila {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  &__text{
+
+  }
+}
