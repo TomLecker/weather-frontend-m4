@@ -1,3 +1,45 @@
+commit 796aba49019da0812d31e54772efccaf58d010f1
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Mon Jan 12 13:08:09 2026 -0300
+
+    Agregada la funcion para mostrar temperatura minima y maxima de cada dia de una ciudad, para usar informacion mas adelante
+
+commit 762c4160907580fe5c05b4814a0212721f67bfaa
+Author: TomLecker <95104057+TomLecker@users.noreply.github.com>
+Date:   Sat Dec 20 17:30:16 2025 -0300
+
+    Update README with SASS implementation details
+    
+    Added details about SASS file structure and usage.
+
+commit caed2ef555ef4aacf634afde3b446ef2e3a970be
+Author: TomLecker <95104057+TomLecker@users.noreply.github.com>
+Date:   Sat Dec 20 16:36:44 2025 -0300
+
+    Fix HTML formatting in README.md
+
+commit b5d6d0e443a97f52af24519148c1f97edbd3908b
+Author: TomLecker <95104057+TomLecker@users.noreply.github.com>
+Date:   Sat Dec 20 16:35:49 2025 -0300
+
+    Revise README for module 3 project details
+    
+    Updated project description for module 3, including new features and repository link.
+
+commit c274aa560dee904e0df3b208df7833167922754c
+Author: Francisco Lopez <francisco.lg1992@gmail.com>
+Date:   Sat Dec 20 16:27:12 2025 -0300
+
+    Primer commit del proyecto para modulo 3 de front-end, incorporado el uso de sass y estructuracion con metodologia BEM
+
+commit 5a64c292d48a660a4d793aed3906311c2427a36d
+Author: TomLecker <95104057+TomLecker@users.noreply.github.com>
+Date:   Sat Nov 29 15:22:51 2025 -0300
+
+    Creacion de archivo readme
+    
+    Se agrego informacion detallada del funcionamiento de la pagina
+
 commit 208cec822983d8d86bb0a4b470c0a77da429fe1d
 Author: Francisco Lopez <francisco.lg1992@gmail.com>
 Date:   Sat Nov 29 14:47:10 2025 -0300

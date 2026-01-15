@@ -13,6 +13,8 @@ html, body {
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  min-height: 33.33vh;
+  max-height: 50vh;
 }
 @media screen and (max-width: 420px) {
   .card {
@@ -99,6 +101,37 @@ html, body {
 }
 
 .info--mod {
+  border: 2px solid #050301;
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(81, 81, 153, 0.66) 0%, rgb(176, 235, 201) 50%, rgb(202, 227, 227) 100%);
+  font-family: "Roboto", "Product Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 420px) {
+  .temp__semana {
+    margin: 0;
+    width: 100vh;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 576px) {
+  .temp__semana {
+    width: 100vh;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 1024px) {
+  .temp__semana {
+    width: 33.33vh;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .temp__semana {
+    width: 33.33vh;
+    margin: 0;
+  }
+}
+.temp__semana {
   border: 2px solid #050301;
   border-radius: 5px;
   background: linear-gradient(90deg, rgba(81, 81, 153, 0.66) 0%, rgb(176, 235, 201) 50%, rgb(202, 227, 227) 100%);

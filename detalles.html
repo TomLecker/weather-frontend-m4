@@ -13,7 +13,6 @@
     />
 
     <link rel="stylesheet" href="assets/css/main.css" />
-
   </head>
 
   <body>
@@ -70,7 +69,10 @@
       <div class="row">
         <div class="class= col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
           <main>
-            <article class="row" id="pronostico"></article>
+            <article class="row" id="pronostico">
+              <!-- Contenido generado dinámicamente -->
+               
+            </article>
           </main>
         </div>
 
@@ -95,6 +97,19 @@
               maxime, assumenda modi placeat unde!
             </p>
           </aside>
+        </div>
+
+        <div class="container-fluid temp__semana">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-4 col-lg-4 col-xl-4">
+              <h3 class="temp__semana__title">Resumen Semanal</h3>
+              <p id="tempMaxSemana" class="temp__semana__max"></p>
+              <p id="tempMinSemana" class="temp__semana__min"></p>
+              <p id="promedioTempSemana" class="temp__semana__promedio"></p>
+              <p id="estadoSemana" class="temp__semana__estado"></p>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -130,11 +145,7 @@
       <!-- Copyright -->
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 
     <script src="assets/js/detalles.js"></script>
 

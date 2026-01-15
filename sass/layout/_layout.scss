@@ -35,6 +35,32 @@
 
 }
 
+.temp__semana {
+
+  @media screen and (max-width: 420px) {
+    margin: 0;
+    width: 100vh;
+  }
+
+  @media screen and (min-width: 421px) and (max-width: 576px) {
+
+    width: 100vh;
+    margin: 0;
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 1024px) {
+    width: 33.33vh;
+    margin: 0;
+  }
+
+  @media screen and (min-width: 1025px) {
+    width: 33.33vh;
+    margin: 0;
+  }
+
+  @include mixins.formato-caja;
+}
+
 /*
 .contenido{
 

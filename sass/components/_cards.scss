@@ -5,16 +5,20 @@
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  min-height: 33.33vh;
+  max-height: 50vh;
 
   @media screen and (max-width: 420px) {
     display: inline-flex;
     margin: 0;
+  
   }
 
   @media screen and (min-width: 421px) and (max-width: 576px) {
     display: inline-flex;
     width: 50%;
     margin: 0;
+   
   }
 
   @media screen and (min-width: 577px) and (max-width: 1024px) {
