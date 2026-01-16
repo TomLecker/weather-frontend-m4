@@ -1,13 +1,11 @@
-<h1> Proyecto de portafolio modulo 3 - Bootcamp Front-end </h1>
-<p> Este proyecto presenta las mismas funcionalidades de la version del modulo 2/p> </br>
-<p> Se incorporo precompilador SASS para reemplazar el uso tradicional de css (los archivos antiguos de css estan eliminados) </p> </br>
-<p> Formateadas las clases de cada uno de los elementos para corresponder con el uso de metodologia BEM </p>
-<p>Uso de herramientas solicitadas (variables para colores y fuentes, mixins para estructurar elementos similares y anidamiento para facilitar legibilidad y mantencion de cada elemento </p>
+<h1> Proyecto de portafolio modulo 4 - Javascript basico - Bootcamp Front-end </h1>
+<p> Reestructuradas las ciudades , ahora fueron convertidas a objetos (el arreglo pronosticoSemanal para el objeto lugares fue declarado, pero no se hace uso de el , debido a que la obtencion de datos es directamente de la API) </br>
+<p> Se agrego una seccion de pronostico semanal a detalles.js que entrega las temperaturas mas bajas y altas ocurridas durante la semana (tomando en consideracion la min y max de cada dia) asi como un promedio de temperatura y la condicion climatica predominante durante la semana </p> </br>
+<p> Se realizo algunas modificaciones al aspecto de las tarjetas de manera que representen de mejor manera su proposito </p>
+<p> Agregada la clase temp__semana y formateada en archivo sass .layout </p>
 
-<p> Las clases de sass anidadas funcionales estan en los archivos : _cards.scss  para manejar su formato, texto, titulo y su comportamiento con media queries</p>
-<p> El elemento aside y section (info) estan declarados en el archivo layout.scss , otros elementos estan declarados, pero comentados ya que aun no se emplea un funcionamiento </p>
+<p> https://github.com/TomLecker/weather-frontend-m4.git </p>
 
-<p> https://github.com/TomLecker/weather-frontend-m3.git </p>
 
 
 
